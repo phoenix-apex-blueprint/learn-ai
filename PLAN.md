@@ -77,7 +77,7 @@
 
 | 周 | 周内晚（输入） | 周末（产出） |
 |----|--------------|-------------|
-| 1 | Python 环境（uv、venv）、git 基础教程；numpy/pandas 视频 | 第一次调 LLM API，写出命令行聊天机器人 |
+| 1 | 装 uv 建虚拟环境；Python 语法基础（廖雪峰/官方教程）；NumPy quickstart 通读 | numpy 5 题练习 + 第一次调 LLM API，写出命令行聊天机器人 |
 | 2 | 官方文档：消息结构、流式输出、结构化输出 | CLI 助手升级：streaming + token 计量 + 错误重试 |
 | 3 | 工具调用文档 + MCP 协议概念文章 | 能查天气/读文件/跑代码的迷你 Agent |
 | 4 | Transformer 直觉材料（3Blue1Brown《注意力》等；数学已在并行轨学到矩阵运算，正好衔接） | 笔记 + 向别人口头解释 attention（录给自己听） |

@@ -3,7 +3,7 @@
 运行方式：
     cd ~/Projects/learn-ai/week01
     source .venv/bin/activate
-    python numpy_practice.py
+    python day06-2026-10-24/numpy_practice.py
 
 要求：只改 TODO 处，跑通后整个文件应无报错执行到底。
 建议先自己写，卡住超过 10 分钟再看文件底部的提示区。

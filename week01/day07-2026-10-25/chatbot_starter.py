@@ -4,7 +4,7 @@
     cd ~/Projects/learn-ai/week01
     source .venv/bin/activate
     export ARK_API_KEY="..."   # 到这一步时让 Claude 用 arkcli 帮你配置
-    python chatbot_starter.py
+    python day07-2026-10-25/chatbot_starter.py
 
 目标：补全所有 TODO，得到一个能多轮对话、显示 token 用量的聊天机器人。
 """
