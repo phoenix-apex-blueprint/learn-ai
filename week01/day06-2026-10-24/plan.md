@@ -13,11 +13,7 @@
 
 ## 📐 数学（30 分钟）
 
-本周数学收官——矩阵乘法手算（阶段 A 第 1–3 周主题的最后一块）：
-
-1. 手算 $\begin{pmatrix} 2 & 1 \\ 0 & 3 \end{pmatrix} \begin{pmatrix} 1 \\ 2 \end{pmatrix}$（提示：结果 = 第 1 列 × 1 + 第 2 列 × 2，用「线性组合」视角验算）
-2. 手算 $\begin{pmatrix} 1 & 2 \end{pmatrix} \begin{pmatrix} 3 \\ 4 \end{pmatrix}$ 和 $\begin{pmatrix} 1 \\ 2 \end{pmatrix} \begin{pmatrix} 3 & 4 \end{pmatrix}$，观察行向量×列向量 vs 列向量×行向量的区别
-3. numpy 验证：`np.array([[2,1],[0,3]]) @ np.array([1,2])`
+本周数学收官——矩阵乘法手算。完成本目录 `math-练习.md` 的 4 道题：矩阵×向量（两种方法互验）、行/列向量相乘的形状区别、2×2 乘 2×2、以及把本周内容串起来的复述题。
 
 ## 🐍 Block 1：numpy 练习（1.5h）
 
@@ -35,9 +31,10 @@
 3. （60 分钟）自己从零写一个 `call_llm.py`（约 15 行，存到本目录）：发一句话给模型，打印回复和 token 用量。**不抄骨架，凭对协议的理解写**——messages、model、response.choices[0].message.content 这几个关键词在文档里找
 
 **验收**：
+- [ ] `math-练习.md` 4 题完成（阶段 A 数学收官）
 - [ ] numpy 5 题全部跑通
 - [ ] `call_llm.py` 能返回模型回复并显示 token 数
-- [ ] 两个文件都已 commit
+- [ ] 三个文件都已 commit
 
 ## ⚠️ 提醒
 

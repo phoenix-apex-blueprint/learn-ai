@@ -13,7 +13,7 @@
 - 🇨🇳 中文：B 站「3Blue1Brown」→《线性代数的本质》P9「点积与对偶性」
 - 🇬🇧 英文：https://www.3blue1brown.com/lessons/dot-products
 
-看完回答（写进 notes.md）：
+看完做 `math-练习.md` 的 5 道题（点积符号判断、投影、夹角余弦、找正交向量），并把两个口头问题写进 notes.md：
 1. 点积的两种计算视角（逐项乘加 vs 投影）分别是什么？
 2. 点积为正 / 为负 / 为零，分别说明两个向量的什么关系？（这条第 5 周讲 embedding 相似度时天天要用）
 
@@ -30,6 +30,7 @@
 
 **验收**：
 - [ ] Quickstart 前 4 节的示例都在 REPL 敲过
+- [ ] `math-练习.md` 5 题完成
 - [ ] numpy 练习已通读并标记 2 道没把握的题
 - [ ] notes.md 写了点积两个问题的回答
 - [ ] 已 commit
